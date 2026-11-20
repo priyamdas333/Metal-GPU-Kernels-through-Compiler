@@ -66,11 +66,6 @@ A simple instruction-count representation of AIR separates straight-line element
 - Only 8 kernels; static analysis with no runtime measurements.
 - Apple's GPU backend after AIR is closed source, so only the frontend and middle-end are visible.
 
-## Next steps
-
-- Replace instruction counts with IR2Vec flow-aware embeddings.
-- Weight rare but important operations (barriers, atomics) so they influence the representation.
-- Run the kernels on the GPU and test whether the vectors predict runtime behaviour.
 
 ## Repository structure
 
